@@ -7,7 +7,7 @@ import pyramids from "../assets/pyramids.png";
 import scroll from "../assets/scroll.png";
 import "../styles/nav.css";
 
-export default Navigation() = () => {
+export default function Navigation() {
     const location = useLocation();
     const getNavPosition = () => {
         switch (location.pathname) {
@@ -36,20 +36,54 @@ export default Navigation() = () => {
             default:
                 return "";
         }
-    }
+    };
+
     const navPosition = getNavPosition();
     const pageTitle = getTitle();
+
     const isCurrentPage = (navClass) => {
         return navClass === navPosition;
-    }
-  render() {
+    };
+
+    const renderNavLink = (to, imgSrc, altText, navClass) => {
+        const isCurrent = isCurrentPage(navClass);
+        const linkClass = isCurrent ? "nav-link current" : "nav-link"
+        
+        return (
+            <Link to={to} className={linkClass}>
+            <img src={imgSrc} alt={altText} />
+            {isCurrent && <h1 className="page-title">{pageTitle}
+            </h1>}
+            </Link>
+        );
+    };
+
     return (
-      <div>
-        <img src={eyeOfHorus} />
-        <img src={magicCircle} />
-        <img src={pyramids} />
-        <img src={scroll} />
-      </div>
+        <nav className={`nav ${navPosition}`}>
+            {renderNavLink(
+                "/",
+                eyeOfHorus,
+                "eye of horus icon",
+                "nav-about"
+            )}
+            {renderNavLink(
+                "/skills",
+                magicCircle,
+                "magic circle icon",
+                "nav-skills"
+            )}
+            {renderNavLink(
+                "/projects",
+                pyramids,
+                "pyramids icon",
+                "nav-projects"
+            )}
+            {renderNavLink(
+                "/contact",
+                scroll,
+                "scroll icon",
+                "nav-contact"
+            )}
+        </nav>
     );
-  }
 }
