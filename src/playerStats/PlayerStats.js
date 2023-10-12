@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/playersStats.css";
+import "../styles/playerStats.css";
 
 const PlayerStats = () => {
     return (
@@ -11,5 +11,7 @@ const PlayerStats = () => {
             <h2>Software Engineer</h2>
             </div>
         </div>
-    )
-}
+    );
+};
+
+export default PlayerStats;
