@@ -8,8 +8,8 @@ const PlayerStats = () => {
             <div id="playerStats__lines">
             <span id ="playerStats__lines__thick"></span>
             <span id ="playerStats__lines__thin"></span>
-            <h2>Software Engineer</h2>
             </div>
+            <h2>Software Developer</h2>
         </div>
     );
 };
