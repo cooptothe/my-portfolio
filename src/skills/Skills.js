@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Avatar2 from "../avatar/Avatar2.js";
-import SkillsMenu from "./AboutMenu.js"
+import SkillsMenu from "./SkillsMenu.js"
 
 export default class Skills extends Component {
   render() {
