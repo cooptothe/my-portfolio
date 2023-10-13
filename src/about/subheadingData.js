@@ -83,3 +83,5 @@ const subheadingData = {
     },
   ],
 };
+
+export default subheadingData;
