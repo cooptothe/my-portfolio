@@ -42,9 +42,11 @@ const subheadingData = {
         <>
           <p>
             • Conducted workload assessments and devised new operational
-            processes that led to a 20% increase in productivity. • Delivered a
-            comprehensive training program for new hires, covering company
-            policies, systems, and customer service techniques.
+            processes that led to a 20% increase in productivity.
+          </p>
+          <p>
+            • Delivered a comprehensive training program for new hires, covering
+            company policies, systems, and customer service techniques.
           </p>
           <span>06/2022 - 12/2022</span>
         </>
@@ -56,11 +58,15 @@ const subheadingData = {
         <>
           <p>
             • Led and coached the team in at least one of the core areas of the
-            restaurant (e.g., service, kitchen, online ordering). • Streamlined
-            daily operations, managing all aspects of kitchen, customer
-            experience, and online ordering during shifts. • Implemented
-            efficient processes that reduced customer wait time by 20% and
-            increased online order accuracy by 15%.
+            restaurant (e.g., service, kitchen, online ordering).
+          </p>
+          <p>
+            • Streamlined daily operations, managing all aspects of kitchen,
+            customer experience, and online ordering during shifts.
+          </p>
+          <p>
+            • Implemented efficient processes that reduced customer wait time by
+            20% and increased online order accuracy by 15%.
           </p>
           <span>07/2021 - 05/2022</span>
         </>
@@ -73,9 +79,11 @@ const subheadingData = {
         <>
           <p>
             • Evaluated children's individual learning needs and designed
-            tailored Individualized Educational Plans (IEPs). • Implemented
-            strategies that improved academic performance and increased student
-            engagement.
+            tailored Individualized Educational Plans (IEPs).
+          </p>
+          <p>
+            • Implemented strategies that improved academic performance and
+            increased student engagement.
           </p>
           <span>08/2019 - 07/2021</span>
         </>
