@@ -50,6 +50,6 @@
 }
 
 .item.active:nth-child(3) {
-  background: linear-gradient(90deg, var(--transparent), var(--cyan) 70%);
+  background: linear-gradient(90deg, var(--transparent), var(--green) 70%);
   border-radius: var(--radius-right);
 }
