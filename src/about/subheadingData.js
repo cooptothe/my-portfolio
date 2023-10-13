@@ -23,14 +23,14 @@ const subheadingData = {
   ],
   2: [
     {
-      title: "Operation Spark 2022-2023",
+      title: "Operation Spark",
       content: (
         <>
-          <span>Advanced Software Engineering Immersive Program</span>
           <p>
             IBC Fundamentals of Javascript, Functional Programming, and Web
-            Development Level 3
+            Development Level 3 - Advanced Software Engineering Immersive Program
           </p>
+          <span style={{   marginLeft: '10rem' }}>2022-2023</span>
         </>
       ),
     },
