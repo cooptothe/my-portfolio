@@ -16,4 +16,17 @@ const subheadingData = {
             ),
         },
     ],
+    2: [
+        {
+            title: "Operation Spark 2022-2023",
+            content: (
+                <>
+                    <p>
+                    IBC Fundamentals of Javascript, Functional Programming, and Web Development Level 3
+                    </p>
+                    <span>Advanced Software Engineering Immersive Program</span>
+                </>
+            ),
+        },
+    ],
 };
