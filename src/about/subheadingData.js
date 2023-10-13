@@ -26,11 +26,11 @@ const subheadingData = {
       title: "Operation Spark 2022-2023",
       content: (
         <>
+          <span>Advanced Software Engineering Immersive Program</span>
           <p>
             IBC Fundamentals of Javascript, Functional Programming, and Web
             Development Level 3
           </p>
-          <span>Advanced Software Engineering Immersive Program</span>
         </>
       ),
     },
@@ -48,7 +48,7 @@ const subheadingData = {
             • Delivered a comprehensive training program for new hires, covering
             company policies, systems, and customer service techniques.
           </p>
-          <span>06/2022 - 12/2022</span>
+          <span style={{   marginLeft: '8rem' }}>06/2022 - 12/2022</span>
         </>
       ),
     },
@@ -68,7 +68,7 @@ const subheadingData = {
             • Implemented efficient processes that reduced customer wait time by
             20% and increased online order accuracy by 15%.
           </p>
-          <span>07/2021 - 05/2022</span>
+          <span style={{   marginLeft: '8rem' }}>07/2021 - 05/2022</span>
         </>
       ),
     },
@@ -85,7 +85,7 @@ const subheadingData = {
             • Implemented strategies that improved academic performance and
             increased student engagement.
           </p>
-          <span>08/2019 - 07/2021</span>
+          <span style={{   marginLeft: '8rem' }}>08/2019 - 07/2021</span>
         </>
       ),
     },
