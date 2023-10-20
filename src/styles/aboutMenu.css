@@ -1,11 +1,11 @@
 .menu {
-  width: 19rem;
+  width: 20rem;
   position: fixed;
   display: flex;
   flex-direction: column;
   top: 50%;
   transform: translateY(-60%);
-  left: 10vh;
+  left: 1vh;
 }
 
 .item {
@@ -14,6 +14,7 @@
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
+  left: -10%;
 }
 
 .title {
@@ -41,17 +42,17 @@
 }
 
 .item.active:nth-child(1) {
-  background: linear-gradient(90deg, var(--transparent), var(--purple) 70%);
+  background: linear-gradient(90deg, var(--transparent), var(--purple) 90%);
   border-radius: var(--radius-right);
 }
 
 .item.active:nth-child(2) {
-  background: linear-gradient(90deg, var(--transparent), var(--blue) 70%);
+  background: linear-gradient(90deg, var(--transparent), var(--blue) 90%);
   border-radius: var(--radius-right);
 }
 
 .item.active:nth-child(3) {
-  background: linear-gradient(90deg, var(--transparent), var(--green) 70%);
+  background: linear-gradient(90deg, var(--transparent), var(--green) 90%);
   border-radius: var(--radius-right);
 }
 
@@ -62,15 +63,15 @@
 }
 
 .sub-container-1.active-subheading h3 {
-  background: linear-gradient(90deg, var(--purple), var(--transparent) 100%);
+  background: linear-gradient(90deg, var(--purple), var(--transparent) 90%);
 }
 
 .sub-container-2.active-subheading h3 {
-  background: linear-gradient(90deg, var(--blue), var(--transparent) 100%);
+  background: linear-gradient(90deg, var(--blue), var(--transparent) 90%);
 }
 
 .sub-container-3.active-subheading h3 {
-  background: linear-gradient(90deg, var(--green), var(--transparent) 100%);
+  background: linear-gradient(90deg, var(--green), var(--transparent) 90%);
 }
 
 .item.active {
@@ -141,7 +142,7 @@
   padding: 0.5rem 0 0.5rem 1rem;
 }
 
-@media (max-width: 700px) {
+@media (max-height: 1500px) and (max-width: 1100px) {
   .sub-container {
     right: 1rem;
   }
@@ -154,7 +155,7 @@
   .p-container {
     display: none;
     width: 200px;
-    max-height: 100px;
+    max-height: 20px;
     overflow: hidden;
   }
 
@@ -162,13 +163,13 @@
     display: block;
     font-size: 0.5rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    margin-left: 0.7rem;
+    margin-left: 0rem;
     margin: 0;
     padding: 5px;
     margin-top: 5px;
   }
   .p-scroll {
-    max-height: 50px; /* Adjust to your desired maximum height */
+    max-height: 25px; /* Adjust to your desired maximum height */
     overflow: hidden;
     position: relative;
   }
@@ -184,35 +185,37 @@
   }
 
   .p-scroll.expanded {
-    max-height: 150px; /* Remove the maximum height for expanded content */
+    max-height: 25px; /* Remove the maximum height for expanded content */
   }
 
   /* CSS for enabling scrolling when content exceeds the height */
   .scrollable-content {
-    max-height: 50px; /* Set your desired maximum height */
+    max-height: 90px; /* Set your desired maximum height */
     overflow-y: auto;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-height: 1500px) and (max-width: 1150px) {
   .menu {
-    width: 15rem;
+    width: 8rem;
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 75%;
-    transform: translateY(-60%);
-    left: 17vh;
+    top: 70%;
+    transform: translateX(100%);
+    transform: translateY(-27%);
+    left: 64%;
   }
   .sub-container {
     width: 20rem;
-    top: 15%;
-    left: 40%;
-    transform: translateX(-45%);
+    top: 13%;
+    left: 5%;
+    transform: translateX(100%);
+    transform: translateY(5%);
   }
   .title {
-    font-size: 0.8rem;
-    padding-right: 2.5rem;
+    font-size: 0.7rem;
+    padding-right: .4rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
   .active-subheading .p-container {
@@ -223,13 +226,13 @@
     display: none;
   }
   h1 {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
   h2,
   h3,
   p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
 }
