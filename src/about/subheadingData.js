@@ -15,7 +15,6 @@ const subheadingData = {
             seamless, user-focused software. I've got the skills—JavaScript,
             TypeScript, React, Node.js, Express, MySQL—and the drive to thrive
             in this fast-paced realm. Let's code a brighter tomorrow together!
-            🗝️
           </p>
         </>
       ),

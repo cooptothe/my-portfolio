@@ -5,7 +5,7 @@
   flex-direction: column;
   top: 50%;
   transform: translateY(-60%);
-  left: 15vh;
+  left: 10vh;
 }
 
 .item {
@@ -80,8 +80,8 @@
 
 .p-container {
   display: none;
-  width: 350px; 
-  max-height: 150px; 
+  width: 350px;
+  max-height: 150px;
   overflow: hidden;
 }
 
@@ -91,35 +91,35 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   margin-left: 0.7rem;
   margin: 0;
-  padding: 10px; 
+  padding: 10px;
   margin-top: 10px;
 }
 
 .p-scroll {
-    max-height: 150px; /* Adjust to your desired maximum height */
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .p-scroll::after {
-    content: "..."; /* Display an ellipsis to indicate more content */
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background: linear-gradient(to right, transparent, #fff 50%);
-    padding: 0 10px; /* Adjust padding as needed */
-    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
-  }
-  
-  .p-scroll.expanded {
-    max-height: 150px; /* Remove the maximum height for expanded content */
-  }
+  max-height: 150px; /* Adjust to your desired maximum height */
+  overflow: hidden;
+  position: relative;
+}
 
-  /* CSS for enabling scrolling when content exceeds the height */
+.p-scroll::after {
+  content: "..."; /* Display an ellipsis to indicate more content */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to right, transparent, #fff 50%);
+  padding: 0 10px; /* Adjust padding as needed */
+  cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+}
+
+.p-scroll.expanded {
+  max-height: 150px; /* Remove the maximum height for expanded content */
+}
+
+/* CSS for enabling scrolling when content exceeds the height */
 .scrollable-content {
-    max-height: 150px; /* Set your desired maximum height */
-    overflow-y: auto;
-  }
+  max-height: 150px; /* Set your desired maximum height */
+  overflow-y: auto;
+}
 
 .icon-title-container {
   display: flex;
@@ -151,19 +151,69 @@
   .item {
     height: 2rem;
   }
+  .p-container {
+    display: none;
+    width: 200px;
+    max-height: 100px;
+    overflow: hidden;
+  }
+
+  .active-subheading .p-container {
+    display: block;
+    font-size: 0.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 0.7rem;
+    margin: 0;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  .p-scroll {
+    max-height: 50px; /* Adjust to your desired maximum height */
+    overflow: hidden;
+    position: relative;
+  }
+
+  .p-scroll::after {
+    content: "..."; /* Display an ellipsis to indicate more content */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to right, transparent, #fff 50%);
+    padding: 0 10px; /* Adjust padding as needed */
+    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+  }
+
+  .p-scroll.expanded {
+    max-height: 150px; /* Remove the maximum height for expanded content */
+  }
+
+  /* CSS for enabling scrolling when content exceeds the height */
+  .scrollable-content {
+    max-height: 50px; /* Set your desired maximum height */
+    overflow-y: auto;
+  }
 }
 
 @media (max-width: 700px) {
+  .menu {
+    width: 15rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 75%;
+    transform: translateY(-60%);
+    left: 17vh;
+  }
   .sub-container {
-    width: 10rem;
-    top: 20%;
-    left: 20%;
+    width: 20rem;
+    top: 15%;
+    left: 40%;
     transform: translateX(-45%);
   }
   .title {
     font-size: 0.8rem;
     padding-right: 2.5rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
   .active-subheading .p-container {
     font-size: 0.8rem;
@@ -174,12 +224,12 @@
   }
   h1 {
     font-size: 0.8rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
   h2,
   h3,
   p {
     font-size: 0.8rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
 }
