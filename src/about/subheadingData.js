@@ -4,7 +4,7 @@ const subheadingData = {
       title: "About Me",
       content: (
         <>
-          <p>
+          <p >
             Hey there! I'm Edward Cooper, a versatile Software Engineer with a
             knack for diving into tasks headfirst. My journey kickstarted in the
             realm of education and customer service, where adaptability and
