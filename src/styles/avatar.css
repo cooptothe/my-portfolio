@@ -34,8 +34,9 @@
 @media (max-width: 1100px) {
     .avatar.skills {
         z-index: -5;
-        height: 95vh;
+        height: 88vh;
         bottom: -15vh;
+        left: -40%;
     }
 }
 
