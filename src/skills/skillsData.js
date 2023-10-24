@@ -9,16 +9,12 @@ const skills = {
             level: 5,
         },
         {
-            title: "SASS",
-            level: 2,
-        },
-        {
             title: "JavaScript",
             level: 5,
         },
         {
             title: "TypeScript",
-            level: 4,
+            level: 3,
         },
         {
             title: "Tailwind CSS",
