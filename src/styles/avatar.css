@@ -12,9 +12,9 @@
 }
 
 .avatar.skills {
-    height: 180vh;
-    bottom: -90vh;
-    left: -1.5rem;
+    height: 100vh;
+    bottom: -15vh;
+    left: 20%;
     transform: translateX(0%) scaleX(1);
 }
 

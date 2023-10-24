@@ -32,11 +32,11 @@
   cursor: default;
 }
 
-.skill-item.activeSkill:nth-last-child(1) {
+.skill-item.activeSkill:nth-child(1) {
   background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
 }
 
-.skill-item.activeSkill:nth-last-child(2) {
+.skill-item.activeSkill:nth-child(2) {
   background: linear-gradient(270deg, #ffffff00, var(--blue) 70%);
 }
 
@@ -130,7 +130,7 @@
   }
   .skill-menu {
     width: 10rem;
-    top: 15%;
+    top: 16%;
     left: 50%;
     transform: translateX(100%);
     transform: translateY(0%);
