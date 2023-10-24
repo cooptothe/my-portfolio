@@ -34,7 +34,7 @@ Demonstrated proficiency in managing component state to ensure a smooth user int
 Integrated project links to GitHub repositories, allowing users to access and explore the source code for further engagement and collaboration.
 
 ## AI-Generated Art Assets: 
-Utilized Lexica.art to create stunning AI-generated art assets and avatars from reference pictures, adding a unique and artistic touch to the portfolio.
+Utilized [ReadyPlayer.Me](https://readyplayer.me/) to create stunning AI-generated art assets and avatars from reference pictures, adding a unique and artistic touch to the portfolio.
 
 # Dependencies
 @testing-library/jest-dom: ^5.17.0
