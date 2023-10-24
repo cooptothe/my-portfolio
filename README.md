@@ -61,4 +61,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Edward Cooper - Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/edwardcooperii/)!
 
-Visit the live portfolio: [My Portfolio](https://edwardcoopers-portfolio.netlify.app/)https://edwardcoopers-portfolio.netlify.app/
+Visit the live portfolio: [My Portfolio](https://edwardcoopers-portfolio.netlify.app/)
