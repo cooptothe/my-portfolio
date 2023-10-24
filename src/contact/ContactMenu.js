@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import DOMPurify from "dompurify";
 
@@ -49,7 +49,7 @@ export default function ContactMenu() {
         console.log("Email is sent successfully!", response.text);
         setFormData(initialState);
         setErrors({});
-        setIsSent(false);
+        setIsSent(true);
       })
       .catch((error) => {
         console.error("Email sending failed", error);
@@ -105,7 +105,7 @@ export default function ContactMenu() {
             )}
           </div>
           <div className="form-group">
-            <label htmlFor="name">Email:</label>
+            <label htmlFor="email">Email:</label>
             <input
               type="email"
               id="email"
@@ -115,29 +115,37 @@ export default function ContactMenu() {
               onChange={handleChange}
               className={errors.email ? "error" : ""}
               disabled={isLoading}
-            >
-              {errors.email && (
-                <span className="error-message">{errors.email}</span>
-              )}
-            </input>
+            />
+            {errors.email && (
+              <span className="error-message">{errors.email}</span>
+            )}
           </div>
           <div className="form-group">
-            <label htmlFor="name">Message:</label>
-            <input
+            <label htmlFor="message">Message:</label>
+            <textarea
               id="message"
-              name="Message"
+              name="message"
               placeholder="Message"
               value={formData.message}
               onChange={handleChange}
               className={errors.message ? "error" : ""}
               disabled={isLoading}
-            >
-              {errors.message && (
-                <span className="error-message">{errors.message}</span>
-              )}
-            </input>
+            ></textarea>
+            {errors.message && (
+              <span className="error-message">{errors.message}</span>
+            )}
           </div>
+          <button type="submit" disabled={isLoading}>
+            {isLoading ? "SENDING..." : "SUBMIT"}
+          </button>
         </form>
+      )}
+      {isSent && (
+        <div className="success-message">
+          <p>SUCCESS!</p>
+          <p>Your message has been successfully sent!</p>
+          <p>You can safely leave this page.</p>
+        </div>
       )}
     </div>
   );
