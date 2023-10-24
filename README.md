@@ -1,7 +1,7 @@
 # My Portfolio
 This is a detailed and stylish portfolio website built from scratch using React. The portfolio showcases my personal and professional information in an interactive and visually appealing way.
 
-By the end of this video, you will know how to create a React App from scratch, how to use Lexica.art to create amazing AI-generated art assets and Avatar from a reference picture, how to use react useState hooks, how to make a dynamic background, how to build modern website designs with CSS3, how to use ClassNames to create dynamic class names, and how to create a secure, fully functional Direct form submission using EmailJS, and more!
+By the end of this video, you will know how to create a React App from scratch, how to use [ReadyPlayer.Me](https://readyplayer.me/) to create amazing AI-generated art assets and Avatar from a reference picture, how to use react useState hooks, how to make a dynamic background, how to build modern website designs with CSS3, how to use ClassNames to create dynamic class names, and how to create a secure, fully functional Direct form submission using EmailJS, and more!
 
 # Features
 Front-End Development: Created dynamic and visually appealing user interfaces for a web application using React. Developed components like "Avatar," "Background," and "Navigation" to ensure a seamless user experience.
