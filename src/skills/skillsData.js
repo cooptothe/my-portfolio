@@ -35,10 +35,6 @@ const skills = {
     ],
     2: [
         {
-            title: "HTML",
-            level: 6,
-        },
-        {
             title: "MySQL",
             level: 4,
         },
