@@ -27,8 +27,7 @@ const projects = {
         </p>
       </>
     ),
-    github: "https:/github.com/cooptothe/Thriller",
-    demo: "https://expo.dev/@cooptothe/Thriller"
+    github: "https://github.com/cooptothe/Thriller",
   },
   3: {
     title: "Resolution",
