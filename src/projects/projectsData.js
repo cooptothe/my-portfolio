@@ -30,17 +30,18 @@ const projects = {
     github: "https://github.com/cooptothe/Thriller",
   },
   3: {
-    title: "Resolution",
+    title: "Galore Wayz",
     image: projectThree,
     description: (
       <>
         <p>
-          an innovative conflict resolution app designed to help users handle
-          interpersonal conflicts effectively
+          a modern clothing store app that leverages cutting-edge
+          technologies to provide users with an unparalleled shopping
+          experience.
         </p>
       </>
     ),
-    github: "https://github.com/TechTitansGeaux/resolution",
+    github: "https://apps.apple.com/us/app/galore-wayz/id6477831289",
   },
 };
 

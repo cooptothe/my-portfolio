@@ -4,7 +4,7 @@ const subheadingData = {
       title: "About Me",
       content: (
         <>
-          <p >
+          <p>
             Hey there! I'm Edward Cooper, a versatile Software Engineer with a
             knack for diving into tasks headfirst. My journey kickstarted in the
             realm of education and customer service, where adaptability and
@@ -27,47 +27,52 @@ const subheadingData = {
         <>
           <p>
             IBC Fundamentals of Javascript, Functional Programming, and Web
-            Development Level 3 - Advanced Software Engineering Immersive Program
+            Development Level 3 - Advanced Software Engineering Immersive
+            Program
           </p>
-          <span style={{   marginLeft: '10rem' }}>2022-2023</span>
+          <span style={{ marginLeft: "10rem" }}>2022-2023</span>
         </>
       ),
     },
   ],
   3: [
     {
-      title: "Buckle, Leader",
+      title: "Geoux Teche, Junior Developer",
       content: (
         <>
           <p>
-            • Conducted workload assessments and devised new operational
-            processes that led to a 20% increase in productivity.
+            • Collaborated with a team of developers using Agile methodologies
+            to deliver feature-rich applications.
           </p>
           <p>
-            • Delivered a comprehensive training program for new hires, covering
-            company policies, systems, and customer service techniques.
+            • Conducted thorough quality assurance testing to identify and
+            resolve bugs, ensuring high-performance standards and seamless user
+            experiences.
           </p>
-          <span style={{   marginLeft: '8rem' }}>06/2022 - 12/2022</span>
+          <span style={{ marginLeft: "8rem" }}>Current</span>
         </>
       ),
     },
     {
-      title: "SweetGreen, Trainer/Shift Leader",
+      title: "Galore Wayz Clothing, Lead Developer (CONTRACT)",
       content: (
         <>
           <p>
-            • Led and coached the team in at least one of the core areas of the
-            restaurant (e.g., service, kitchen, online ordering).
+            • Led end-to-end development and deployment of a cross-platform
+            e-commerce clothing store app using React Native, Node.js, Express,
+            and Firebase, ensuring a seamless shopping experience for users.
           </p>
           <p>
-            • Streamlined daily operations, managing all aspects of kitchen,
-            customer experience, and online ordering during shifts.
+            • Developed and maintained a robust API using Node.js and Express;
+            integrated it with Shopify's GraphQL Storefront API to facilitate
+            efficient data querying and management for client applications.
           </p>
           <p>
-            • Implemented efficient processes that reduced customer wait time by
-            20% and increased online order accuracy by 15%.
+            • Designed promotional images, logo, and various graphics using
+            Photoshop and Canva to enhance brand identity and drive user
+            engagement.
           </p>
-          <span style={{   marginLeft: '8rem' }}>07/2021 - 05/2022</span>
+          <span style={{ marginLeft: "8rem" }}>11/2023 - 01/2024</span>
         </>
       ),
     },
@@ -84,7 +89,7 @@ const subheadingData = {
             • Implemented strategies that improved academic performance and
             increased student engagement.
           </p>
-          <span style={{   marginLeft: '8rem' }}>08/2019 - 07/2021</span>
+          <span style={{ marginLeft: "8rem" }}>08/2019 - 07/2022</span>
         </>
       ),
     },

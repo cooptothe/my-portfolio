@@ -25,7 +25,7 @@ export default class ProjectsMenu extends Component {
         <div>{project.description}</div>
         <div className="link-container">
           <a href={project.github} target="_blank" rel="noopener noreferrer">
-            GITHUB
+            LINK
           </a>
         </div>
       </div>
