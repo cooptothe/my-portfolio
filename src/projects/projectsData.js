@@ -17,17 +17,17 @@ const projects = {
     github: "https://github.com/TechTitansGeaux/TheSpot",
   },
   2: {
-    title: "Thriller",
+    title: "Des Decpr Party Bundles",
     image: projectOne,
     description: (
       <>
         <p>
-          a mobile application for horror movie enthusiasts that allows users to
-          discover trending, upcoming, top-rated, and classic horror movies
+        An ecommerce app for party decor rental supplies, built with React Native and Shopify's Storefront API. This app allows users to browse a wide selection of party supplies, 
+        create bundles, and customize their options before making a purchase.
         </p>
       </>
     ),
-    github: "https://github.com/cooptothe/Thriller",
+    github: "https://github.com/cooptothe/Des-Decor-Shopify-Storefront",
   },
   3: {
     title: "Galore Wayz",

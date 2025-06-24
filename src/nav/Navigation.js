@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React, { Component } from "react";
+import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import eyeOfHorus from "../assets/eye-of-horus.png";
 import key from "../assets/key.png";
