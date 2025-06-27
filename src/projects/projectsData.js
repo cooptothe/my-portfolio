@@ -43,7 +43,7 @@ const projects = {
         </p>
       </>
     ),
-    github: "https://apps.apple.com/us/app/galore-wayz/id6477831289",
+    github: "https://github.com/cooptothe/galorewayz",
   },
   4: {
     title: "Thriller",
