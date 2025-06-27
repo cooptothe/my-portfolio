@@ -37,42 +37,18 @@ const subheadingData = {
   ],
   3: [
     {
-      title: "Geoux Teche, Junior Developer",
+      title: "Freelance, Full Stack Developer",
       content: (
         <>
           <p>
-            • Collaborated with a team of developers using Agile methodologies
-            to deliver feature-rich applications.
+            • Delivered mobile and web applications for small business clients, consistently 
+            meeting tight deadlines and quality standards.
           </p>
           <p>
-            • Conducted thorough quality assurance testing to identify and
-            resolve bugs, ensuring high-performance standards and seamless user
-            experiences.
+            • Managed client expectations and provided ongoing support, 
+            ensuring clear and effective communication throughout project lifecycles.
           </p>
           <span style={{ marginLeft: "8rem" }}>Current</span>
-        </>
-      ),
-    },
-    {
-      title: "Galore Wayz Clothing, Lead Developer (CONTRACT)",
-      content: (
-        <>
-          <p>
-            • Led end-to-end development and deployment of a cross-platform
-            e-commerce clothing store app using React Native, Node.js, Express,
-            and Firebase, ensuring a seamless shopping experience for users.
-          </p>
-          <p>
-            • Developed and maintained a robust API using Node.js and Express;
-            integrated it with Shopify's GraphQL Storefront API to facilitate
-            efficient data querying and management for client applications.
-          </p>
-          <p>
-            • Designed promotional images, logo, and various graphics using
-            Photoshop and Canva to enhance brand identity and drive user
-            engagement.
-          </p>
-          <span style={{ marginLeft: "8rem" }}>11/2023 - 01/2024</span>
         </>
       ),
     },
