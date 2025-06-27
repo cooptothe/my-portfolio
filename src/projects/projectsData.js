@@ -1,6 +1,8 @@
 import projectOne from "../assets/project-1.png";
 import projectTwo from "../assets/project-2.png";
 import projectThree from "../assets/project-3.png";
+import projectFour from "../assets/project-4.png";
+import projectFive from "../assets/project-5.png";
 
 const projects = {
   1: {
@@ -42,6 +44,32 @@ const projects = {
       </>
     ),
     github: "https://apps.apple.com/us/app/galore-wayz/id6477831289",
+  },
+  4: {
+    title: "Thriller",
+    image: projectFour,
+    description: (
+      <>
+        <p>
+        Thriller is a fully functional mobile application for Horror Movie enthusiasts built with React Native + Moviedb API that allows users to discover trending, 
+        upcoming, top-rated, and classic horror movies. Users can also search for movies and explore details about specific movies and their cast.
+        </p>
+      </>
+    ),
+    github: "https://github.com/cooptothe/Thriller"
+  },
+  5: {
+    title: "MLB Data Pipeline",
+    image: projectFive,
+    description: (
+      <>
+        <p>
+        This tool scrapes MLB pregame odds from DraftKings and Pinnacle sportsbooks, processes the data to calculate Expected Value percentages (EV%) for each betting market, and identifies value bets based on Pinnacle’s no-vig implied probabilities. 
+        By comparing Pinnacle’s market maker odds with DraftKings' lines, it highlights profitable betting opportunities.
+        </p>
+      </>
+    ),
+    github: "https://github.com/cooptothe/mlb_data_pipeline"
   },
 };
 

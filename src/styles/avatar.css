@@ -35,8 +35,9 @@
     .avatar.skills {
         z-index: -5;
         height: 88vh;
-        bottom: -15vh;
-        left: -40%;
+        bottom: -10vh;
+        left: 10%;
+        transform: translateX(-50%) scaleX(0.8);
     }
 }
 

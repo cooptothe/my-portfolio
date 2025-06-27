@@ -129,7 +129,7 @@
     font-size: 0.7rem;
   }
   .skill-menu {
-    width: 10rem;
+    width: 5rem;
     top: 16%;
     left: 50%;
     transform: translateX(100%);
@@ -137,13 +137,13 @@
   }
   .skill-item {
     height: 2rem;
-    width: 12rem;
+    width: 5rem;
   }
 }
 
 @media (max-width: 700px) {
   .menu {
-    width: 10rem;
+    width: 5rem;
     top: 30%;
     left: 50%;
     transform: translateY(-50%);
