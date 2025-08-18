@@ -4,6 +4,7 @@ import projectThree from "../assets/project-3.png";
 import projectFour from "../assets/project-4.png";
 import projectFive from "../assets/project-5.png";
 import projectSix from "../assets/project-6.png";
+import projectSeven from "../assets/project-7.png";
 
 const projects = {
   1: {
@@ -86,6 +87,19 @@ const projects = {
     ),
     github: "https://github.com/cooptothe/matchup-analyzer"
 },
+  7: {
+    title: "Smart Contracts",
+    image: projectSeven,
+    description: (
+      <>
+        <p>
+          This repository contains a collection of Solidity smart contracts for various use cases. These contracts are written in Solidity, 
+          a popular programming language for developing smart contracts on the Ethereum blockchain.
+        </p>
+      </>
+    ),
+    github: "https://github.com/cooptothe/myContracts"
+  },
 };
 
 export default projects;

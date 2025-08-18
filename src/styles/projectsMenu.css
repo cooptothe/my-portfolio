@@ -2,7 +2,7 @@
     width: 100%;
     position: fixed;
     display: flex;
-    top: 25%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -51,10 +51,13 @@
     background: linear-gradient(270deg, #ffffff00, var(--green) 70%);
 }
 .project-item.activeProject:nth-child(5) {
-    background: linear-gradient(270deg, #ffffff00, var(--orange) 70%);
+    background: linear-gradient(270deg, #ffffff00, orange 70%);
 }
 .project-item.activeProject:nth-child(6) {
-    background: linear-gradient(270deg, #ffffff00, var(--yellow) 70%);
+    background: linear-gradient(270deg, #ffffff00, yellow 70%);
+}
+.project-item.activeProject:nth-child(7) {
+    background: linear-gradient(270deg, #ffffff00, pink 70%);
 }
 
 .project-sub-container {

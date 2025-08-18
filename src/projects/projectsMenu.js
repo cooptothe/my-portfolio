@@ -34,7 +34,7 @@ export default class ProjectsMenu extends Component {
 
   render() {
     const { activeProject } = this.state;
-    const projectItems = ["The Spot", "Des Decor", "Galore Wayz", "Thriller", "Odds Data Pipeline", "MLB Matchup Analyzer"];
+    const projectItems = ["The Spot", "Des Decor", "Galore Wayz", "Thriller", "Odds Data Pipeline", "MLB Matchup Analyzer", "Smart Contracts"];
 
 
     return (
