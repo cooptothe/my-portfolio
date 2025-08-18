@@ -23,20 +23,6 @@ export default function Navigation() {
                 return "";
         }
     };
-    const getTitle = () => {
-        switch (location.pathname) {
-            case "/":
-                return "ABOUT";
-            case "/skills":
-                return "SKILLS";
-            case "/projects":
-                return "PROJECTS";
-            case "/contact":
-                return "CONTACT";
-            default:
-                return "";
-        }
-    };
 
     const navPosition = getNavPosition();
 
