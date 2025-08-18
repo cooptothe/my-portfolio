@@ -39,7 +39,6 @@ export default function Navigation() {
     };
 
     const navPosition = getNavPosition();
-    const pageTitle = getTitle();
 
     const isCurrentPage = (navClass) => {
         return navClass === navPosition;
