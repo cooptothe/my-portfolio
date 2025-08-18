@@ -105,7 +105,7 @@
     display: none;
   }
   .level-point {
-    width: 1.2rem;
+    width: 1rem;
     height: 1rem;
     border-radius: 0.1rem;
   }
@@ -121,7 +121,7 @@
     gap: 0.2rem;
   }
   h1 {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
   h2,
   h3,
@@ -129,15 +129,20 @@
     font-size: 0.7rem;
   }
   .skill-menu {
-    width: 5rem;
-    top: 16%;
+    width: 10rem;
+    height: 10rem;
+    top: 25%;
     left: 50%;
     transform: translateX(100%);
     transform: translateY(0%);
   }
   .skill-item {
-    height: 2rem;
-    width: 5rem;
+    height: 10rem;
+    width: 7rem;
+  }
+  .skill-title {
+    font-size: 0.7rem;
+    padding-right: .3rem;
   }
 }
 

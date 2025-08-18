@@ -3,6 +3,7 @@ import projectTwo from "../assets/project-2.png";
 import projectThree from "../assets/project-3.png";
 import projectFour from "../assets/project-4.png";
 import projectFive from "../assets/project-5.png";
+import projectSix from "../assets/project-6.png";
 
 const projects = {
   1: {
@@ -59,18 +60,32 @@ const projects = {
     github: "https://github.com/cooptothe/Thriller"
   },
   5: {
-    title: "MLB Data Pipeline",
+    title: "ODDS Data Pipeline",
     image: projectFive,
     description: (
       <>
         <p>
-        This tool scrapes MLB pregame odds from DraftKings and Pinnacle sportsbooks, processes the data to calculate Expected Value percentages (EV%) for each betting market, and identifies value bets based on Pinnacle’s no-vig implied probabilities. 
-        By comparing Pinnacle’s market maker odds with DraftKings' lines, it highlights profitable betting opportunities.
+        A real-time betting odds data pipeline built in Python that analyzes sharp vs recreational 
+        sportsbook lines across major sports and surfaces high-EV betting opportunities. Alerts are sent to Discord with context, 
+        Kelly staking suggestions, and bookmaker links.
         </p>
       </>
     ),
     github: "https://github.com/cooptothe/mlb_data_pipeline"
   },
+  6: {
+    title: "Matchup Analyzer",
+    image: projectSix,
+    description: (
+      <>
+        <p>
+          An interactive baseball web app that visualizes batter vs. pitcher outcomes using historical MLB data.
+          Built with Next.js (TypeScript), Tailwind CSS, and PapaParse for CSV parsing.
+        </p>
+      </>
+    ),
+    github: "https://github.com/cooptothe/matchup-analyzer"
+},
 };
 
 export default projects;
