@@ -45,15 +45,14 @@ export default function Navigation() {
         return navClass === navPosition;
     };
 
-    const renderNavLink = (to, imgSrc, altText, navClass) => {
+    const renderNavLink = (to, imgSrc, altText, navClass, title) => {
         const isCurrent = isCurrentPage(navClass);
-        const linkClass = isCurrent ? "nav-link current" : "nav-link"
+        const linkClass = isCurrent ? "nav-link current" : "nav-link";
         
         return (
             <Link to={to} className={linkClass}>
-            <img src={imgSrc} alt={altText} />
-            {isCurrent && <h1 className="page-title">{pageTitle}
-            </h1>}
+                <img src={imgSrc} alt={altText} />
+                <h1 className="page-title">{title}</h1>
             </Link>
         );
     };
@@ -64,25 +63,29 @@ export default function Navigation() {
                 "/",
                 eyeOfHorus,
                 "eye of horus icon",
-                "nav-about"
+                "nav-about",
+                "ABOUT"
             )}
             {renderNavLink(
                 "/skills",
                 key,
                 "key icon",
-                "nav-skills"
+                "nav-skills",
+                "SKILLS"
             )}
             {renderNavLink(
                 "/projects",
                 pyramids,
                 "pyramids icon",
-                "nav-projects"
+                "nav-projects",
+                "PROJECTS"
             )}
             {renderNavLink(
                 "/contact",
                 scroll,
                 "scroll icon",
-                "nav-contact"
+                "nav-contact",
+                "CONTACT"
             )}
         </nav>
     );
