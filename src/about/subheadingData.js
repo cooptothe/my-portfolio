@@ -57,7 +57,7 @@ const subheadingData = {
             • Fostered communication, leadership, and mentorship through classroom and athletic support.
           </p>
           <p>
-            • Demonstrated adaptability and creative problem-solving in high-pressure, team-oriented environments
+            • Demonstrated adaptability and creative problem-solving in high-pressure, team-oriented environments.
           </p>
           <span style={{ marginLeft: "8rem" }}>08/2019 - 07/2022</span>
         </>
