@@ -50,16 +50,14 @@ const subheadingData = {
     },
     {
       title:
-        "Young Audiences Charter School, Special Education Paraprofessional",
+        "Young Audiences Charter School, Special Education Paraprofessional & Basketball Coach",
       content: (
         <>
           <p>
-            • Evaluated children's individual learning needs and designed
-            tailored Individualized Educational Plans (IEPs).
+            • Fostered communication, leadership, and mentorship through classroom and athletic support.
           </p>
           <p>
-            • Implemented strategies that improved academic performance and
-            increased student engagement.
+            • Demonstrated adaptability and creative problem-solving in high-pressure, team-oriented environments
           </p>
           <span style={{ marginLeft: "8rem" }}>08/2019 - 07/2022</span>
         </>
