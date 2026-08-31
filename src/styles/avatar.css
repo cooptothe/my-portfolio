@@ -2,6 +2,7 @@
     position: fixed;
     overflow: hidden;
     z-index: -2;
+    pointer-events: none;
 }
 
 .avatar.about {
@@ -41,10 +42,26 @@
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .avatar.about {
         z-index: -5;
-        height: 95vh;
-        bottom: -15vh;
+        height: 90vh;
+        bottom: -12vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .avatar.skills {
+        height: 78vh;
+        left: 20%;
+        bottom: -8vh;
+        transform: translateX(-50%) scaleX(0.8);
+    }
+}
+
+@media (max-width: 420px) {
+    .avatar.about {
+        height: 82vh;
+        bottom: -8vh;
     }
 }
